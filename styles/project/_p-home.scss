@@ -1,0 +1,23 @@
+
+.p-home{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    @media screen and (max-width: 768px){
+        height: 50vh;
+    }
+    &__banner{
+        &__nav{
+            img{
+                height: 100vh;
+                cursor: pointer;
+                width: 100%;
+                 @media screen and (max-width: 768px){
+                 height: 50vh;
+                }
+            }
+
+        }
+    }
+}
